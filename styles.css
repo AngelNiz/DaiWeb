@@ -382,6 +382,7 @@ img {
   }
 
   .Quin-soy{
+    width: 90%;
     font-size: 25px;
     padding: 0;
   }
@@ -396,6 +397,14 @@ img {
     align-items: stretch;
     gap: 50px;
     padding-bottom: 0px;
+  }
+
+  .galeria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
 }
