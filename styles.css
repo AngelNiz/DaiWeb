@@ -448,7 +448,7 @@ html {
     }
   .Head{
     padding-left: 20px;
-    height: 500px;
+    height: auto;
   }
     .imagen1 {
       width: 100%;
@@ -470,7 +470,7 @@ html {
     .Card-test{
       display: flex;
       width: 105%;
-      height: 500px;
+      height: auto;
       flex-grow: 0;
       display: flex;
       flex-direction: column;
