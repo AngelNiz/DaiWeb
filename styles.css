@@ -142,7 +142,7 @@ a {
 }
 
 .Testimonios {
-  height: 285px;
+  height: auto;
   align-self: stretch;
   flex-grow: 0;
   display: flex;
@@ -153,16 +153,11 @@ a {
   padding: 20px 0;
 }
 
-.Rectangle-1 {
-  width: 500px;
-  height: 1px;
-  margin: 0 325.5px 10px;
-  background-color: #000;
-}
+
 
 .subt {
   width: 150px;
-  height: 25px;
+  height: auto;
   flex-grow: 0;
   font-family: Sora;
   font-size: 30px;
@@ -176,10 +171,11 @@ a {
 }
 
 .Card-test {
-  width: 1151px;
-  height: 188px;
+  width: auto;
+  height: auto;
   flex-grow: 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
@@ -188,10 +184,11 @@ a {
 }
 
 .Card {
-  width: 25vh;
+  width: 155px;
   height: auto;
   flex-grow: 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -238,7 +235,7 @@ a {
 }
 
 .Quien-soy {
-  height: 320px;
+  height: auto;
   align-self: stretch;
   flex-grow: 0;
   display: flex;
@@ -246,13 +243,14 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 25px 0 50px;
+  padding-top: 5vh;
+  padding-bottom: 0;
   background-color: #fff;
 }
 
 .Quin-soy {
   width: 1500px;
-  height: 25px;
+  height: auto;
   flex-grow: 0;
   font-family: Sora;
   font-size: 30px;
@@ -266,7 +264,7 @@ a {
 }
 .Frame-1 {
   width: 1250px;
-  height: 300px;
+  height: auto;
   flex-grow: 0;
   display: flex;
   flex-direction: column;
@@ -300,7 +298,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  padding: 20px 0;
+  padding-top: 10vh;
 }
 
 .areastexto {
